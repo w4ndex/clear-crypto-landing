@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://w4ndex.github.io/clear-crypto-landing/logo.png">
   <title>ClearCrypto | P2P Партнёрство</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
       margin: 0;
       background-color: #f7f9fc;
       color: #1a1a1a;
+      line-height: 1.6;
+      padding: 0 15px;
     }
     header {
       text-align: center;
-      padding: 40px 20px 20px;
+      padding: 30px 0 20px;
       background-color: #ffffff;
     }
-    header img {
-      max-width: 120px;
+    .logo-img {
+      max-height: 100px;
+      margin-bottom: 15px;
+      border-radius: 50%; /* Круглая аватарка */
+      object-fit: cover;
+      width: 120px;
+      height: 120px;
     }
     h1 {
       font-size: 32px;
-      margin-top: 20px;
+      margin: 0;
       color: #003366;
     }
     section {
-      padding: 40px 20px;
+      padding: 30px 0;
       max-width: 900px;
       margin: 0 auto;
     }
     h2 {
       font-size: 26px;
       color: #003366;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
     p {
       font-size: 18px;
-      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    ul {
+      font-size: 18px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
     }
     .cta {
       text-align: center;
-      margin-top: 40px;
+      margin: 40px 0;
     }
     .cta a {
       display: inline-block;
@@ -57,16 +72,17 @@
     }
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 20px 0;
       font-size: 14px;
       background: #eaeaea;
       color: #666;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="cc/jpg" alt="ClearCrypto Logo" />
+    <img class="logo-img" src="logo.png" alt="ClearCrypto Logo">
     <h1>ClearCrypto</h1>
   </header>
 
@@ -88,7 +104,7 @@
 
   <section>
     <h2>💼 Что мы предлагаем</h2>
-    <ul style="font-size:18px; line-height:1.8;">
+    <ul>
       <li>Подключение к реальному P2P-процессу</li>
       <li>Понимание как работает P2P изнутри</li>
       <li>Стабильный заработок без вложений</li>
@@ -97,7 +113,7 @@
 
   <div class="cta">
     <h2>📩 Готовы начать?</h2>
-    <a href="https://t.me/ClearCryptoSup" target="_blank">Связаться в Telegram</a>
+    <a href="https://t.me/cc_corp">Присоединиться к каналу</a>
   </div>
 
   <footer>
